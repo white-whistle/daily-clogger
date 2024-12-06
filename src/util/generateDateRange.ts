@@ -9,7 +9,7 @@ export function generateDateRange(startDate: Date, endDate: Date): Date[] {
 	}
 
 	const dates: Date[] = [];
-	let current = new Date(start);
+	const current = new Date(start);
 
 	while (current <= end) {
 		dates.push(new Date(current)); // Push a copy of the current date
