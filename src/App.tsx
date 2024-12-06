@@ -1,4 +1,4 @@
-import { Link, Route, Router, Switch } from "wouter";
+import { Route, Router, Switch } from "wouter";
 import { END_DATE, START_DATE } from "./consts";
 import { formatDate } from "./util/formatDate";
 import { useHashLocation } from "wouter/use-hash-location";
