@@ -3,6 +3,8 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-	base: "/daily-clogger/",
+	// for gh pages without dns
+	// base: "/daily-clogger/",
+	base: "/",
 	plugins: [react()],
 })
